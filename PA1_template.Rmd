@@ -1,6 +1,4 @@
 
-<p><strong>This document contains the completed work for peer assignment #1 for the Coursera Reproducable Research class.</strong></p>
-
 <h3><a id="user-content-loading--preprocessing-data" class="anchor" href="#loading--preprocessing-data" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Loading &amp; Preprocessing Data</h3>
 
 <hr>
