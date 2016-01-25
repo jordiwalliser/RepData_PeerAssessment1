@@ -12,23 +12,6 @@ head(<span class="pl-smi">dat</span>)</pre></div>
 
 <hr>
 
-<p>Next, I will make a histogram of the total number of steps taken each day, but first I will summarize the data by day:</p>
-
-<div class="highlight highlight-source-r"><pre>library(<span class="pl-smi">data.table</span>)
-<span class="pl-v">dat_tbl</span> <span class="pl-k">=</span> data.table(<span class="pl-smi">dat</span>)
-<span class="pl-v">dat_tbl_summary</span> <span class="pl-k">=</span> <span class="pl-smi">dat_tbl</span>[, <span class="pl-k">list</span>(<span class="pl-v">total_steps</span> <span class="pl-k">=</span> sum(<span class="pl-smi">steps</span>, <span class="pl-v">na.rm</span> <span class="pl-k">=</span> <span class="pl-c1">T</span>)), 
-                          <span class="pl-v">by</span> <span class="pl-k">=</span> <span class="pl-smi">date</span>]</pre></div>
-
-<p><strong>Make The Histogram, And Report on Mean and Median:</strong></p>
-
-<p>The below histogram addresses the following items:</p>
-
-<ol>
-<li> Make a histogram of the total number of steps taken each day</li>
-<li> Calculate and report the mean and median total number of steps taken per day</li>
-</ol>
-
-<p><strong>Note: Mean and Median Are Reported In Legend Of Histogram</strong></p>
 
 <div class="highlight highlight-source-r"><pre><span class="pl-c">#Making The Generation of This Plot Into A Function So I Can Re-use Later</span>
 <span class="pl-v">gen_hist</span> <span class="pl-k">=</span> <span class="pl-k">function</span>(<span class="pl-smi">x</span>, <span class="pl-smi">title</span>){
