@@ -1,42 +1,4 @@
-<ul class="pagehead-actions">
 
-  <li>
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="5088f37b618c98a2476b14398645b683baf55de1" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="l7IyYciKqr8mkXqwWAhBPkbsMsEqbYZHC6NUHoVHwW0KQCDrrnJs/sy8cU4ZNOJy+gi6EVtzTwgiwgq0V/dpdA==" /></div>      <input id="repository_id" name="repository_id" type="hidden" value="19899531" />
-
-        <div class="select-menu js-menu-container js-select-menu">
-          <a href="/sefakilic/coursera-repdata/subscription"
-            class="btn btn-sm btn-with-count select-menu-button js-menu-target" role="button" tabindex="0" aria-haspopup="true"
-            data-ga-click="Repository, click Watch settings, action:blob#show">
-            <span class="js-select-button">
-              <span aria-hidden="true" class="octicon octicon-eye"></span>
-              Watch
-            </span>
-          </a>
-          <a class="social-count js-social-count" href="/sefakilic/coursera-repdata/watchers">
-            3
-          </a>
-
-        <div class="select-menu-modal-holder">
-          <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="true">
-            <div class="select-menu-header">
-              <span aria-label="Close" class="octicon octicon-x js-menu-close" role="button"></span>
-              <span class="select-menu-title">Notifications</span>
-            </div>
-
-              <div class="select-menu-list js-navigation-container" role="menu">
-
-                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
-                  <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
-                  <div class="select-menu-item-text">
-                    <input checked="checked" id="do_included" name="do" type="radio" value="included" />
-                    <span class="select-menu-item-heading">Not watching</span>
-                    <span class="description">Be notified when participating or @mentioned.</span>
-                    <span class="js-select-button-text hidden-select-button-text">
-                      <span aria-hidden="true" class="octicon octicon-eye"></span>
-                      Watch
-                    </span>
-                  </div>
-                </div>
 
                 <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
                   <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
