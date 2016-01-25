@@ -128,7 +128,7 @@ The mean and the median are now almost the same after replacing missing values w
 <hr>
 
 <ol>
-<li> Create a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.</li>
+<li> Create a new factor variable in the dataset.</li>
 </ol>
 
 <div class="highlight highlight-source-r"><pre><span class="pl-c">#Make Function To Return Either "Weekday" or "Weekend"</span>
@@ -150,18 +150,3 @@ The mean and the median are now almost the same after replacing missing values w
 <span class="pl-v">dat_tbl_summary_miss</span> <span class="pl-k">=</span> <span class="pl-smi">dat_tbl_miss</span>[, <span class="pl-k">list</span>(<span class="pl-v">avg_steps</span> <span class="pl-k">=</span> mean(<span class="pl-smi">new_steps</span>, <span class="pl-v">na.rm</span> <span class="pl-k">=</span> <span class="pl-c1">T</span>)), 
                           <span class="pl-v">by</span> <span class="pl-k">=</span> <span class="pl-k">list</span>(<span class="pl-smi">interval</span>, <span class="pl-smi">daytype</span>)]
 
-<span class="pl-c">#inspect dataset</span>
-str(<span class="pl-smi">dat_tbl_summary_miss</span>)</pre></div>
-
-<p>Below is the panel plot:</p>
-
-<div class="highlight highlight-source-r"><pre>library(<span class="pl-smi">lattice</span>)
-xyplot(<span class="pl-smi">avg_steps</span><span class="pl-k">~</span><span class="pl-smi">interval</span> <span class="pl-k">|</span> <span class="pl-smi">daytype</span>, <span class="pl-v">data</span> <span class="pl-k">=</span> <span class="pl-smi">dat_tbl_summary_miss</span>,
-      <span class="pl-v">type</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>l<span class="pl-pds">'</span></span>,
-      <span class="pl-v">xlab</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>Interval<span class="pl-pds">'</span></span>,
-      <span class="pl-v">ylab</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>Number of Steps<span class="pl-pds">'</span></span>,
-      <span class="pl-v">layout</span> <span class="pl-k">=</span> c(<span class="pl-c1">1</span>,<span class="pl-c1">2</span>))</pre></div>
-</article>
-  </div>
-
-</div>
