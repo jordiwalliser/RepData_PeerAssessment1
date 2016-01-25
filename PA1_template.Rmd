@@ -75,16 +75,10 @@ legend(<span class="pl-s"><span class="pl-pds">"</span>topright<span class="pl-p
 
 <h3><a id="user-content-missing-values" class="anchor" href="#missing-values" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Missing Values</h3>
 
-<ol>
-<li>Calculate &amp; Report The Number of Missing Values</li>
-</ol>
+
 
 <div class="highlight highlight-source-r"><pre>sum(is.na(<span class="pl-smi">dat</span><span class="pl-k">$</span><span class="pl-smi">steps</span>))</pre></div>
 
-<ol>
-<li><p>Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.</p></li>
-<li><p>Create a new dataset that is equal to the original dataset but with the missing data filled in.</p></li>
-</ol>
 
 <div class="highlight highlight-source-r"><pre><span class="pl-c">#First I will join the dataframe I created earlier that summarizes the average number of steps per interval to the original dataset</span>
 setkey(<span class="pl-smi">dat_tbl</span>, <span class="pl-smi">interval</span>)
