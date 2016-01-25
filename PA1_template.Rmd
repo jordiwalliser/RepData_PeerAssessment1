@@ -110,16 +110,13 @@ head(<span class="pl-smi">dat_tbl_summary_miss</span>)</pre></div>
 gen_hist(<span class="pl-smi">dat_tbl_summary_miss</span><span class="pl-k">$</span><span class="pl-smi">new_steps</span>, <span class="pl-s"><span class="pl-pds">'</span>Missing Values Replaced With <span class="pl-cce">\n</span> Mean For Interval<span class="pl-pds">'</span></span>)
 </pre></div>
 
-<p><strong>Answer To Question:</strong>
-The mean and the median are now almost the same after replacing missing values with the mean value for the relevant interval. It makes sense that the median value would now move closer to the mean. So the Median value increased after this method of missing value replacement.</p>
+
 
 <h3><a id="user-content-are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="anchor" href="#are-there-differences-in-activity-patterns-between-weekdays-and-weekends" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Are there differences in activity patterns between weekdays and weekends?</h3>
 
 <hr>
 
-<ol>
-<li> Create a new factor variable in the dataset.</li>
-</ol>
+
 
 <div class="highlight highlight-source-r"><pre><span class="pl-c">#Make Function To Return Either "Weekday" or "Weekend"</span>
 <span class="pl-v">weekpart</span> <span class="pl-k">=</span> <span class="pl-k">function</span>(<span class="pl-smi">x</span>){
