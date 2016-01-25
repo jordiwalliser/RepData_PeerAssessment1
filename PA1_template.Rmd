@@ -44,15 +44,6 @@ gen_hist(<span class="pl-smi">dat_tbl_summary</span><span class="pl-k">$</span><
 
 <hr>
 
-<p><strong>Next, I will try to visualize the daily activity pattern</strong></p>
-
-<p>The below plot addresses the following items:</p>
-
-<ol>
-<li> Make a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)</li>
-<li> Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?</li>
-</ol>
-
 <div class="highlight highlight-source-r"><pre><span class="pl-c">#summarize dataset by interval</span>
 <span class="pl-v">dat_tbl_summary_intv</span> <span class="pl-k">=</span> <span class="pl-smi">dat_tbl</span>[, <span class="pl-k">list</span>(<span class="pl-v">avg_steps</span> <span class="pl-k">=</span> mean(<span class="pl-smi">steps</span>, <span class="pl-v">na.rm</span> <span class="pl-k">=</span> <span class="pl-c1">T</span>)), 
                           <span class="pl-v">by</span> <span class="pl-k">=</span> <span class="pl-smi">interval</span>]
