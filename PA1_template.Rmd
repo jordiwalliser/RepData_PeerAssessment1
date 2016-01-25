@@ -1,14 +1,14 @@
 <p>First we need to download the data: </p>
 
 
-<p>Next, I will read this data into a dataframe and inspect the structure of the data</p>
+<p>Then we need to read the data</p>
 
 <div class="highlight highlight-source-r"><pre><span class="pl-v">dat</span> <span class="pl-k">=</span> read.csv(<span class="pl-s"><span class="pl-pds">'</span>activity.csv<span class="pl-pds">'</span></span>, <span class="pl-v">header</span> <span class="pl-k">=</span> <span class="pl-c1">T</span>)
 names(<span class="pl-smi">dat</span>)
 str(<span class="pl-smi">dat</span>)
 head(<span class="pl-smi">dat</span>)</pre></div>
 
-<h3><a id="user-content-histogram-mean--median" class="anchor" href="#histogram-mean--median" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Histogram, Mean &amp; Median</h3>
+<h3><a id="user-content-Histogram, Mean and Median" class="anchor" href="#Histogram, Mean and Median" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Histogram, Mean &amp; Median</h3>
 
 <hr>
 
