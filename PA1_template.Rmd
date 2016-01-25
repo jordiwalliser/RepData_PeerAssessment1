@@ -215,36 +215,4 @@ xyplot(<span class="pl-smi">avg_steps</span><span class="pl-k">~</span><span cla
     
     
 
-    <div id="ajax-error-message" class="flash flash-error">
-      <span aria-hidden="true" class="octicon octicon-alert"></span>
-      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
-        <span aria-hidden="true" class="octicon octicon-x"></span>
-      </button>
-      Something went wrong with that request. Please try again.
-    </div>
-
-
-      
-      <script crossorigin="anonymous" integrity="sha256-nuVc6vh/w03IYzQkn+9svs6I6BVHjg++gWQtV+0P/4k=" src="https://assets-cdn.github.com/assets/frameworks-9ee55ceaf87fc34dc86334249fef6cbece88e815478e0fbe81642d57ed0fff89.js"></script>
-      <script async="async" crossorigin="anonymous" integrity="sha256-G+Ga1mKcjStSuxsBHGt+z3Q9tWkFTBwPNsjZhYzj9kA=" src="https://assets-cdn.github.com/assets/github-1be19ad6629c8d2b52bb1b011c6b7ecf743db569054c1c0f36c8d9858ce3f640.js"></script>
-      
-      
-      
-    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
-      <span aria-hidden="true" class="octicon octicon-alert"></span>
-      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
-      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
-    </div>
-    <div class="facebox" id="facebox" style="display:none;">
-  <div class="facebox-popup">
-    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
-    </div>
-    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
-      <span aria-hidden="true" class="octicon octicon-x"></span>
-    </button>
-  </div>
-</div>
-
-  </body>
-</html>
-
+    
