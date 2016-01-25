@@ -104,7 +104,7 @@ setkey(<span class="pl-smi">dat_tbl_summary_intv</span>, <span class="pl-smi">in
 <span class="pl-c">#preview new dataset</span>
 head(<span class="pl-smi">dat_tbl_summary_miss</span>)</pre></div>
 
-<p><strong>Note: Mean and Median Are Reported In Legend Of Histogram</strong></p>
+
 
 <div class="highlight highlight-source-r"><pre>gen_hist(<span class="pl-smi">dat_tbl_summary</span><span class="pl-k">$</span><span class="pl-smi">total_steps</span>, <span class="pl-s"><span class="pl-pds">'</span>Missing Values Removed<span class="pl-pds">'</span></span>)
 gen_hist(<span class="pl-smi">dat_tbl_summary_miss</span><span class="pl-k">$</span><span class="pl-smi">new_steps</span>, <span class="pl-s"><span class="pl-pds">'</span>Missing Values Replaced With <span class="pl-cce">\n</span> Mean For Interval<span class="pl-pds">'</span></span>)
